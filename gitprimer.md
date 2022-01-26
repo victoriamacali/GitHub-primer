@@ -66,9 +66,7 @@ Use `git log <branch> <files>` to see a list of commits on `branch` that edited 
 | Combine a branch with the current one, merging its commit tree directly into the current one | `git merge <branch-name>` |
 
 ### Working with others
-Note: you probably don't need this for CS439
-
-Say we are on branch `master`. Alice makes some changes to `foo.txt`, and commits it. Bob makes some changes to the file and commits as well. 
+Say we are on branch `master`. Alice makes some changes to `foo.txt`, and commits it. Bob makes some changes to the file and commits as well.
 One of them will push first, then the other will then have to pull then push.
 
 There are two scenarios:
